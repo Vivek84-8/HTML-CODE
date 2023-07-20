@@ -1,4 +1,49 @@
-p{
-    color: blue;
-    background-color: yellow;
+*
+{
+    margin: 0;
+    padding: 0;
+    scroll-behavior:smooth ;
+   
 }
+header
+{
+  padding: 50px ;
+   background-color: crimson;
+
+}
+header>a{
+    color: white;
+    text-decoration: none;
+    margin: 0px 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+header>a:hover{
+    color: black;
+    font-weight: 600;
+}
+section{
+
+    height:500px;
+    width: 1000px;
+    margin: auto;
+    background-color: rgb(219, 205, 205);
+    text-align: center;
+    padding: 20px;
+    box-sizing: border-box;
+}
+section>h1{
+    font-size: 40px;
+}
+footer{
+    width: 1000px;
+    box-sizing: border-box;
+    margin: auto;
+    background-color: #1d1b1b;
+    text-align: center;
+    padding: 50px ;
+}
+footer>a{
+    color: white;
+    text-decoration: none;
+}
+   
