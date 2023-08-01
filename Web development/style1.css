@@ -1,0 +1,24 @@
+div{
+    width: 100px;
+    height: 100px;
+    font-size: x-large;
+    border: 2px solid salmon;
+    background-color: bisque;
+}
+body{
+    margin: 0;
+    width: 80vw;
+    height: 80vh;
+    display: flex;
+    border: 2px solid rgba(78, 155, 78, 0.919);
+    /*justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+    flex-flow: row-reverse wrap;*/
+}
+.two{
+   /* flex-grow: 2;
+    flex-shrink:21 ;*/
+}
